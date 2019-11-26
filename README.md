@@ -28,8 +28,6 @@ LabelImg is a great tool for creating a object detection data-set.
 
 Download and install LabelImg. Then point it to your images/train and images/test directories, and draw a box around each object in each image.
 
-![label images](doc/label_image.png)
-
 LabelImg supports two formats, PascalVOC and Yolo. For this tutorial make sure to select PascalVOC. LabelImg saves a xml file containing the label data for each image.
 
 ## 4. Preparing data for training
@@ -40,7 +38,7 @@ For more information check out the [official documentation](https://detectron2.r
 
 ## 5. Loading in the data and training the model
 
-After you have your data-set prepared you are ready to start writing some code. The complete training process can be found in the [Detectron2_Detect_Microcontroller.ipynb notebook](Detectron2_Detect_Microcontroller.ipynb).
+After you have your data-set prepared you are ready to start writing some code. The complete training process can be found in the [Detectron2_Detect_Microcontrollers.ipynb notebook](Detectron2_Detect_Microcontrollers.ipynb).
 
 ## 6. Using model for Inference
 
